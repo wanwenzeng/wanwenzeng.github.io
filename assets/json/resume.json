@@ -2,11 +2,9 @@
   "basics": {
     "name": "Wanwen Zeng",
     "label": "Postdoctoral Scholar",
-    "image": "",
     "email": "wanwen@stanford.edu",
     "phone": "(669) 666-4211",
     "url": "https://wanwenzeng.github.io",
-  
     "location": {
       "address": "James H. Clark Center",
       "postalCode": "CA 94305",
@@ -17,8 +15,8 @@
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "YourTwitterUsername",
+        "url": "https://twitter.com/YourTwitterUsername"
       }
     ]
   },
@@ -28,17 +26,16 @@
       "position": "Postdoctoral Scholar",
       "startDate": "2021-06-01",
       "endDate": "now",
-      "summary": "I led several projects of unraveling the human diseases by leveraging advanced language models with genetic and regulatory genomic data",
-      "highlights": ["Regulatory Genomics","Language Models","Genetics"]
+      "summary": "I led several projects unraveling human diseases by leveraging advanced language models with genetic and regulatory genomic data.",
+      "highlights": ["Regulatory Genomics", "Language Models", "Genetics"]
     },
     {
       "name": "Department of Software, Nankai University",
       "position": "Assistant Professor",
       "startDate": "2019-12-01",
       "endDate": "2021-05-31",
-      "summary": "I supervised 4 mater students and co-supervised 2 PhD students, I tauch undergrad and graduate courses, including Introduction to Artificial Intelligence, and Cloud Computing and Application",
+      "summary": "I supervised 4 master's students and co-supervised 2 PhD students. I taught undergraduate and graduate courses, including Introduction to Artificial Intelligence, and Cloud Computing and Application."
     }
-    
   ],
   "education": [
     {
@@ -46,41 +43,35 @@
       "location": "Beijing, China",
       "studyType": "PhD",
       "startDate": "2014-09-01",
-      "endDate": "2019-08-01",
-      "score": "10",
+      "endDate": "2019-08-01"
     },
     {
       "institution": "Department of Statistics, Stanford University",
-      "location": "Califorlia, USA",
+      "location": "California, USA",
       "studyType": "Visiting PhD student",
       "startDate": "2017-08-31",
-      "endDate": "2018-09-01",
-      "score": "10",
+      "endDate": "2018-09-01"
     },
     {
       "institution": "Department of Computer Science, Tianjin University",
       "location": "Tianjin, China",
       "studyType": "Undergraduate",
       "startDate": "2010-09-01",
-      "endDate": "2014-07-01",
-      "score": "10",
+      "endDate": "2014-07-01"
     }
   ],
   "languages": [
     {
       "language": "Mandarin",
-      "fluency": "Native speaker",
-      "icon": ""
+      "fluency": "Native speaker"
     },
     {
       "language": "Cantonese",
-      "fluency": "Native speaker",
-      "icon": ""
+      "fluency": "Native speaker"
     },
     {
       "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "fluency": "Fluent"
     }
   ]
 }
