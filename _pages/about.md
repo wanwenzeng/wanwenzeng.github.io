@@ -15,12 +15,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Wanwen Zeng, currently a postdoctoral fellow in the Department of Statistics at Stanford University, working under the mentorship of Prof. Wing Hung Wong.
+I am Wanwen Zeng, currently a postdoctoral fellow in the Department of Statistics at Stanford University, working under the mentorship of Prof. Wing Hung Wong.My research focuses on developing machine learning mmethods to uncover gene regulatory mechanisms and their implications for complex traits and diseases, by integrating multi-omics and whole-genome sequencing (WGS) data. Specifically, I am interested in:
 
-My research focuses on integrating machine learning, multi-omics and whole-genome sequencing (WGS) data to uncover gene regulatory mechanisms and their implications for complex traits and diseases. Specifically, I am interested in:
-
-- **Deciphering gene regulatory networks**, with an emphasis on non-coding regulatory elements and their interactions, particularly their roles in gene expression and disease mechanisms by leveraging large-scale genomic and epigenomic datasets from ENCODE and ROADMAP.
+- **Deciphering gene regulatory mechanisms**, with an emphasis on non-coding regulatory elements and their interactions, particularly their roles in gene expression and disease mechanisms by leveraging large-scale genomic and epigenomic datasets from ENCODE and ROADMAP.
   
-- **Improving understanding of gene regulation in individual-level**, particularly predicting the effects of genetic variants on personal gene expression by utilizing large language models (LLMs) and the use of WGS data from admixed populations (e.g., African-American) in GTEx project.
+- **Improving understanding of gene regulation to individual-level**, particularly focusing on modeling personal gene expression by developing genetic large language models (LLMs) with the use of WGS data of admixed populations (e.g., African-American) in GTEx project.
   
-- **Advancing disease risk assessment** with a focus on regulatory epigenomic signals, as well as rare and de novo variants by using biobank-level WGS data from UK Biobank and MVP.
+- **Advancing individual disease risk assessment** by integrating both rare and de novo variants in biobank-level WGS data from UK Biobank and MVP, with a focus on regulatory epigenomic signals to improve biological interpretability.
