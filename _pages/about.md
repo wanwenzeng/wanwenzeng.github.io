@@ -24,5 +24,3 @@ My research focuses on integrating machine learning, multi-omics and whole-genom
 - **Improving understanding of gene regulation in individual-level**, particularly predicting the effects of genetic variants on personal gene expression by utilizing large language models (LLMs) and the use of WGS data from admixed populations (e.g., African-American) in GTEx project.
   
 - **Advancing disease risk assessment** with a focus on regulatory epigenomic signals, as well as rare and de novo variants by using biobank-level WGS data from UK Biobank and MVP.
-  
-I received my PhD from Tsinghua University, including a one-year research stint at Stanford. Before my postdoctoral role, I served as an assistant professor at Nankai University. My work aims to leverage state-of-the-art computational tools to deepen our understanding of gene regulation in both health and disease contexts.
