@@ -41,21 +41,21 @@
     {
       "institution": "Department of Automation, Tsinghua University",
       "location": "Beijing, China",
-      "studyType": "PhD",
+      "studyType": "Ph.D.",
       "startDate": "2014-09-01",
       "endDate": "2019-10-01"
     },
     {
       "institution": "Department of Statistics, Stanford University",
       "location": "California, USA",
-      "studyType": "Visiting PhD student",
+      "studyType": "Visiting Ph.D. student",
       "startDate": "2017-09-01",
       "endDate": "2018-09-01"
     },
     {
       "institution": "Department of Computer Science, Tianjin University",
       "location": "Tianjin, China",
-      "studyType": "Undergraduate",
+      "studyType": "Bachelor",
       "startDate": "2010-09-01",
       "endDate": "2014-07-01"
     }
