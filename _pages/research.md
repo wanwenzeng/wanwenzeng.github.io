@@ -1,6 +1,6 @@
 ---
 layout: profiles
-permalink: /people/
+permalink: /research/
 title: Research
 description: ''
 nav: true
