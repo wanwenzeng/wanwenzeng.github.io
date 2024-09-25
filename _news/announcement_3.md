@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our study on [HiChIP database](http://health.tsinghua.edu.cn/hichipdb/) was accepted to [Nucleic Acids Research](https://academic.oup.com/nar/article/51/D1/D159/6754910).
+Our study on [HiChIP database](http://health.tsinghua.edu.cn/hichipdb/) is published at [Nucleic Acids Research](https://academic.oup.com/nar/article/51/D1/D159/6754910).
