@@ -58,30 +58,5 @@
       "startDate": "2010-09-01",
       "endDate": "2014-07-01"
     }
-  ],
-  "languages": [
-    {
-      "language": "Mandarin",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "Cantonese",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Foodie &#1F60B"
-    },
-    {
-      "name": "Travel &#1F6EB"
-    },
-    {
-      "name": "Concert &#1F3BB :violin"
-    }
   ]
 }
