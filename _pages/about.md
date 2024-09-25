@@ -15,10 +15,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Wanwen Zeng, currently a postdoctoral fellow in the Department of Statistics at Stanford University, working under the mentorship of Prof. Wing Hung Wong.My research focuses on developing machine learning mmethods to uncover gene regulatory mechanisms and their implications for complex traits and diseases, by integrating multi-omics and whole-genome sequencing (WGS) data. Specifically, I am interested in:
+I am currently a postdoctoral fellow in the Department of Statistics at Stanford University, working under the mentorship of Prof. Wing Hung Wong. My research focuses on developing machine learning methods to uncover gene regulatory mechanisms and their implications for complex traits and diseases by integrating multi-omics and whole-genome sequencing (WGS) data. Specifically, I am interested in:
 
-- **Deciphering gene regulatory mechanisms**, with an emphasis on non-coding regulatory elements and their interactions, particularly their roles in gene expression and disease mechanisms by leveraging large-scale genomic and epigenomic datasets from ENCODE and ROADMAP.
+- **Deciphering gene regulatory mechanisms**, with an emphasis on non-coding regulatory elements, their interactions, and their roles in gene expression and disease mechanisms by leveraging large-scale (epi)genomic datasets from ENCODE and ROADMAP.
   
-- **Improving understanding of gene regulation to individual-level**, particularly focusing on modeling personal gene expression by developing genetic large language models (LLMs) with the use of WGS data of admixed populations (e.g., African-American) in GTEx project.
+- **Understanding individual-level gene regulation**, particularly focusing on modeling personal gene expression by developing genetic large language models (LLMs) with the use of WGS data of admixed populations (e.g., African-American) in GTEx project.
   
-- **Advancing individual disease risk assessment** by integrating both rare and de novo variants in biobank-level WGS data from UK Biobank and MVP, with a focus on regulatory epigenomic signals to improve biological interpretability.
+- **Advancing individual disease risk assessment** by integrating both rare and de novo variants in biobank-level WGS data from UK Biobank and MVP to improve predictive performance and biological interpretability.
