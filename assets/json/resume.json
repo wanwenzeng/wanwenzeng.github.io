@@ -75,16 +75,13 @@
   ],
   "interests": [
     {
-      "name": "Foodie",
-      "icon": "&#1F60B"
+      "name": "Foodie&#1F60B"
     },
     {
-      "name": "Travel",
-      "icon": "&#1F6EB"
+      "name": "Travel&#1F6EB"
     },
     {
-      "name": "Concert",
-      "icon": "&#1F3BB"
+      "name": "Concert&#1F3BB"
     }
   ]
 }
