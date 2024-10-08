@@ -6,40 +6,43 @@ inline: false
 related_posts: false
 ---
 
-In honor of Wing's groundbreaking contributions to theoretical statistics, Bayesian statistics and bioinformatics, among others, Statistics and Data Science in Biomedicine covered recent progress and new directions in several important aspects of statistics and data science, emphasizing the crucial role played by these disciplines in designing computational algorithms and methodologies for real-world applications.
+It was an absolute honor to celebrate Wing Hung Wong’s 70th birthday with such an inspiring and memorable event. The gathering brought together past and present members of Wong Lab, as well as many colleagues who have been shaped by Wing’s mentorship and vision. Reflecting on this milestone, it’s clear that Wing’s contributions to the fields of statistics, genomics, and computational biology have left an indelible mark on science and our individual journeys.
+
+The talks by former Wong Lab members were a true testament to Wing’s legacy. Each speaker, from various stages of their careers, shared cutting-edge research that spanned diverse areas like statistical genetics, cancer genomics, and systems biology. It was fascinating to see how Wing’s influence has not only guided groundbreaking work but also cultivated a culture of curiosity, rigor, and interdisciplinary collaboration. His mentorship has allowed each of us to pursue innovative ideas while staying grounded in statistical principles.
+
+The event was also an opportunity to reflect on the strong sense of community within the Wong Lab. Former students and postdocs spoke fondly of the supportive and intellectually stimulating environment that Wing fostered. His unwavering commitment to excellence and his ability to challenge us to think deeply have shaped all of our approaches to research and problem-solving.
+
+Wing, your mentorship has been an invaluable gift to all of us, and we are incredibly grateful for the wisdom and guidance you’ve shared over the years. Your passion for discovery, your humility, and your dedication to training the next generation of scientists have made a lasting impact on our lives and the broader scientific community.
+
+Here’s to celebrating not only your remarkable career but also the future breakthroughs and collaborations inspired by your teachings. We look forward to seeing what lies ahead for Wong Lab alumni and how your influence will continue to shape the future of science.
+
+Happy 70th Birthday, Wing!
 
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/wingbirthday1.JPG" title="Wing birthday image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/wingbirthday2.JPG" title="Wing birthday image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/wingbirthday1.JPG" title="Wing's birthday" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Two group photos with Wing's former students.
+    Group photo with Wing's former students.
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/wonglab.JPG" title="Wing birthday image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/wingbirthday2.JPG" title="Wing's birthday" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Another group photo with Wing's former students.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/wonglab.JPG" title="Wing's birthday" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     The group photo of current Wong Lab.
 </div>
-
-#### Hipster list
-
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
-
----
