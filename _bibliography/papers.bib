@@ -10,8 +10,34 @@
   journal={Proceedings of the National Academy of Sciences},
   year={2024},
   abstract={Polygenic risk scores (PRS) are crucial in genetics for predicting individual susceptibility to complex diseases by aggregating the effects of numerous genetic variants. Whole-genome sequencing (WGS) has revolutionized our ability to detect rare and even de novo variants, creating an exciting opportunity for developing new PRS methods that can effectively leverage rare variants and capture the complex relationships among different variants. Furthermore, regulatory mechanisms play a crucial role in gene expression and disease manifestation, offering avenues to further enhance the performance and interpretation of PRS predictions. Through simulation studies, we highlighted aspects where current PRS methods face challenges when applied to WGS data, aiming to shed light on potential opportunities for further improvement. To address these challenges, we developed Epi-PRS, an approach that leverages the power of genomic large language models (LLM) to impute epigenomic signals across diverse cellular contexts, for use as intermediate variables between genotype and phenotype. A pretrained LLM is employed to transform genotypes into epigenomic signals using personal diploid sequences as inputs, and the genetic risk is then estimated based on the imputed personal epigenomic signals. Epi-PRS enhances the assessment of personal variant impacts, enabling a comprehensive and holistic consideration of genotypic and regulatory information within large genomic regions. Our simulation results demonstrated that incorporating the nuanced effects of non-linear models, rare variants, and regulatory information can provide more precise PRS prediction and better understanding of genetic risk. Applying Epi-PRS to real data from the UK Biobank, our results further showed that Epi-PRS significantly outperforms existing PRS methods in two major diseases: breast cancer and diabetes. This study suggests that PRS methods can benefit from incorporating non-linear models, rare variants, and regulatory information, highlighting the potential for significant advancements in disease risk modeling and enhancing the understanding of precision medicine.},
-  pdf={example_pdf.pdf},
+  pdf={Zeng2024a.pdf},
   html={https://www.medrxiv.org/content/10.1101/2024.10.04.24314860v1},
+  note={under review},
+  selected={true}
+}
+
+@article{Liu2024Alzheimers,
+  abbr={Nat. Aging},
+  author={Qiao Liu* and Wanwen Zeng* and Hongtu Zhu and Lexin Li† and Wing H. Wong†},
+  title={Associating genotype to imaging and clinical phenotypes of Alzheimer’s disease by leveraging genomic large language model},
+  journal={Nature Aging},
+  year={2024},
+  abstract={Genome-wide association studies (GWAS) have identified numerous genetic variants associated with Alzheimer's disease (AD) phenotypes. However, how these variants contribute to the etiology of AD remains largely elusive. Recent advances in genomic large language models (LLMs) have revolutionized regulatory genomic prediction tasks, offering new opportunities to interpret the genetic variation observed in personal genome. In this study, we propose epiBrainLLM, a novel computational framework that leverages genomic LLM to enhance our understanding of the causal pathways from genotypes to brain measures to AD-related clinical phenotypes. Our framework will first convert the personal DNA sequence into a diverse set of genomic and epigenomic features using a pretrained genomic LLM and then use these features to further predict phenotypes. Across various experimental settings, our results demonstrate that incorporating pretrained genomic LLMs significantly improves association analysis compared to using genotype information alone. We conclude that our proposed framework provides a novel perspective for understanding the regulatory mechanisms underlying the AD disease etiology, potentially offering insights into complex disease mechanisms beyond AD.},
+  pdf={Liu2024a.pdf},
+  html={https://www.medrxiv.org/content/10.1101/2024.10.03.24314824v1},
+  note={in submission},
+  selected={true}
+}
+
+@article{Cui2024CREATE,
+  abbr={Nat. Commun.},
+  author={Xuejian Cui and Qijin Yin and Zijing Gao and Zhen Li and Xiaoyang Chen and Shengquan Chen and Qiao Liu and Wanwen Zeng† and Rui Jiang†},
+  title={CREATE: cell-type-specific cis-regulatory elements identification via discrete embedding},
+  journal={Nature Communications},
+  year={2024},
+  abstract={Identifying cis-regulatory elements (CREs) within non-coding genomic regions-such as enhancers, silencers, promoters, and insulators-is pivotal for elucidating the intricate gene regulatory mechanisms underlying complex biological traits. The current prevalent sequence-based methods often focus on singular CRE types, limiting insights into cell-type-specific biological implications. Here, we introduce CREATE, a multimodal deep learning model based on the Vector Quantized Variational AutoEncoder framework, designed to extract discrete CRE embeddings and classify multiple CRE classes using genomic sequences, chromatin accessibility, and chromatin interaction data. CREATE excels in accurate CRE identification and exhibits strong effectiveness and robustness. We showcase CREATE's capability in generating comprehensive CRE-specific feature spectrum, offering quantitative and interpretable insights into CRE specificity. By enabling large-scale prediction of CREs in specific cell types, CREATE facilitates the recognition of disease- or phenotype-related biological variabilities of CREs, thereby expanding our understanding of gene regulation landscapes.},
+  pdf={Cui2024a.pdf},
+  html={https://www.biorxiv.org/content/10.1101/2024.10.02.616391v1},
   note={under review},
   selected={true}
 }
@@ -28,43 +54,19 @@
   selected={true}
 }
 
-@article{Liu2024Alzheimers,
-  abbr={Nat. Aging},
-  author={Qiao Liu* and Wanwen Zeng* and Hongtu Zhu and Lexin Li† and Wing H. Wong†},
-  title={Associating genotype to imaging and clinical phenotypes of Alzheimer’s disease by leveraging genomic large language model},
-  journal={Nature Aging},
-  year={2024},
-  abstract={This study utilizes genomic large language models to connect genotype data to Alzheimer's disease imaging and clinical phenotypes, providing new insights into disease progression.},
-  pdf={example_pdf.pdf},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  note={in submission},
-  selected={true}
-}
-
 @article{Shao2024BIBM,
   abbr={BIBM},
   author={Wei Shao and Shuang Zhang and Qiao Liu and Wanwen Zeng†},
   title={Inferring gene regulatory networks based on genetically perturbed scATAC-seq data},
   journal={BIBM},
   year={2024},
-  abstract={This paper presents a method for inferring gene regulatory networks from single-cell ATAC-seq data with genetic perturbations, improving accuracy in network reconstruction.},
+  abstract={Gene regulatory networks (GRNs) are critical blueprints for understanding gene regulation and the intricate interactions that drive biological processes. Recent advances have highlighted the potential of single-cell ATAC-seq (scATAC-seq) data in GRN inference, offering unprecedented insights into how chromatin accessibility plays an important part in gene regulation. However, existing methods often fall short in providing a quantitative and holistic depiction of regulatory relationships, particularly in capturing the strength, direction, and type of gene regulation simultaneously. In this paper, we present a novel approach that addresses these limitations by leveraging genetically perturbed scATAC-seq data to infer more comprehensive and accurate GRNs. Our method advances the field by integrating pre- and post-perturbation chromatin accessibility data, enabling the construction of GRNs that more accurately reflect the dynamic regulatory landscape. Through rigorous evaluation on seven real datasets, we demonstrate the method’s superior performance in reconstructing GRNs with enhanced precision and interpretability. This work significantly contributes to the field by providing a robust framework for GRN inference, with broad implications for understanding gene regulation in complex biological systems.},
   pdf={example_pdf.pdf},
   html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
   note={under review}
 }
 
-@article{Cui2024CREATE,
-  abbr={Nat. Commun.},
-  author={Xuejian Cui and Qijin Yin and Zijing Gao and Zhen Li and Xiaoyang Chen and Shengquan Chen and Qiao Liu and Wanwen Zeng† and Rui Jiang†},
-  title={CREATE: cell-type-specific cis-regulatory elements identification via discrete embedding},
-  journal={Nature Communications},
-  year={2024},
-  abstract={CREATE identifies cell-type-specific cis-regulatory elements by using a discrete embedding approach, advancing our understanding of gene regulation.},
-  pdf={example_pdf.pdf},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  note={under review},
-  selected={true}
-}
+
 
 @article{Gao2024EpiGePT,
   abbr={Genome Biol.},
@@ -72,9 +74,9 @@
   title={EpiGePT: a Pretrained Transformer model for epigenomics},
   journal={Genome Biology},
   year={2024},
-  abstract={EpiGePT introduces a pretrained transformer model for epigenomics, which enhances predictive performance for various epigenomic datasets.},
-  pdf={example_pdf.pdf},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+  abstract={The transformer-based models, such as GPT-31 and DALL-E2, have achieved unprecedented breakthroughs in the field of natural language processing and computer vision. The inherent similarities between natural language and biological sequences have prompted a new wave of inferring the grammatical rules underneath the biological sequences. In genomic study, it is worth noting that DNA sequences alone cannot explain all the gene activities due to epigenetic mechanism. To investigate this problem, we propose EpiGePT, a new transformer-based language pretrained model in epigenomics, for predicting genome-wide epigenomic signals by considering the mechanistic modeling of transcriptional regulation. Specifically, EpiGePT takes the context-specific activities of transcription factors (TFs) into consideration, which could offer deeper biological insights comparing to models trained on DNA sequence only. In a series of experiments, EpiGePT demonstrates state-of-the-art performance in a diverse epigenomic signals prediction tasks as well as new prediction tasks by fine-tuning. Furthermore, EpiGePT is capable of learning the cell-type-specific long-range interactions through the self-attention mechanism and interpreting the genetic variants that associated with human diseases. We expect that the advances of EpiGePT can shed light on understanding the complex regulatory mechanisms in gene regulation. We provide free online prediction service of EpiGePT through https://health.tsinghua.edu.cn/epigept/.},
+  pdf={Gao2024a.pdf},
+  html={https://www.biorxiv.org/content/10.1101/2023.07.15.549134v1},
   note={minor revision}
 }
 
@@ -84,9 +86,9 @@
   title={Modeling the causal mechanism between genotypes and phenotypes using large-scale biobank data and context-specific regulatory networks},
   journal={Cybernetics and Intelligence},
   year={2024},
-  abstract={This article discusses a new framework for modeling genotype-phenotype relationships using biobank data and regulatory networks.},
-  pdf={example_pdf.pdf},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777}
+  abstract={The relationship between genetic variation and human phenotypes is crucial for developing effective treatments and personalized medicine. However, our understanding of the regulatory mechanisms by which variants influence human traits and diseases is far from complete. Context-specific regulatory network is a typical tool that provides detailed understanding of gene regulation in specific biological contexts, allowing us to identify key regulators and pathways that are important for a particular phenotype. In this review, we summarize the large international biobanks and reference omics data that provide diverse datasets for the genotypephenotype analysis and the construction of context-specific regulatory networks, and discuss the importance of context-specific regulatory networks in explaining the underlying causal mechanism between genotypes and phenotypes. We emphasize the significance of QTL studies in explaining the correlation between genotypes and omics features, and present various computational approaches for the construction of context-specific regulatory networks. With continued advancements in biobanking, genomics, and computational biology, the context-specific regulatory networks may serve as an increasingly powerful tool for modeling the causal mechanisms that underlie the relationship between genotypes and phenotypes.},
+  pdf={Li2024a.pdf},
+  html={https://www.sciopen.com/article/10.26599/CAI.2024.9390003}
 }
 
 @article{Yin2023,
