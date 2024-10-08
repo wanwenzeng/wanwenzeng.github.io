@@ -10,7 +10,27 @@ In honor of Wing's groundbreaking contributions to theoretical statistics, Bayes
 
 ---
 
-[Put photo here]
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/wingbirthday1.JPG" title="Wing birthday image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/wingbirthday2.JPG" title="Wing birthday image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Two group photos with Wing's former students.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/wonglab.JPG" title="Wing birthday image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The group photo of current Wong Lab.
+</div>
+
 #### Hipster list
 
 <ul>
