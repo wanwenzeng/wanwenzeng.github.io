@@ -227,22 +227,22 @@
   author={Xu Min* and Wanwen Zeng* and Shengquan Chen and Ning Chen and Ting Chen and Rui Jiang†},
   title={Predicting enhancers with deep convolutional neural networks},
   journal={BMC Bioinformatics},
-  abbr={BMC Bioinformatics},
+  abbr={BMC Bioinfo.},
   volume={18},
   number={13},
   pages={35--46},
   year={2017},
-  pdf={example_pdf.pdf},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
   doi={10.1186/s12859-017-1806-9},
-  abstract={The paper presents a deep convolutional neural network approach for predicting enhancers. The method demonstrates significant improvement in enhancer prediction accuracy compared to traditional methods, showcasing its potential for genomic analysis.}
+  pdf={Min2017a.pdf},
+  html={https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1878-3},
+  abstract={To facilitate the identification of enhancers, we propose a computational framework, named DeepEnhancer, to distinguish enhancers from background genomic sequences. Our method purely relies on DNA sequences to predict enhancers in an end-to-end manner by using a deep convolutional neural network (CNN). We train our deep learning model on permissive enhancers and then adopt a transfer learning strategy to fine-tune the model on enhancers specific to a cell line. Results demonstrate the effectiveness and efficiency of our method in the classification of enhancers against random sequences, exhibiting advantages of deep learning over traditional sequence-based classifiers. We then construct a variety of neural networks with different architectures and show the usefulness of such techniques as max-pooling and batch normalization in our method. To gain the interpretability of our approach, we further visualize convolutional kernels as sequence logos and successfully identify similar motifs in the JASPAR database.}
 }
 
 @article{Yin2022,
   author={Qijin Yin and Qiao Liu and Zhuoran Fu and Wanwen Zeng and Boheng Zhang and Xuegong Zhang and Rui Jiang† and Hairong Lv†},
   title={scGraph: A graph neural network-based approach to automatically identify cell types},
   journal={Bioinformatics},
-  abbr={Bioinformatics},
+  abbr={Bioinfo.},
   volume={38},
   number={11},
   pages={2996--3003},
@@ -277,10 +277,10 @@
   number={30},
   pages={7723--7728},
   year={2018},
-  pdf={example_pdf.pdf},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+  pdf={Duren2018a.pdf},
+  html={https://www.pnas.org/doi/10.1073/pnas.1805681115},
   doi={10.1073/pnas.1720610115},
-  abstract={This paper proposes a coupled nonnegative matrix factorization approach to integrate single-cell genomics data from different modalities, enabling better resolution of cellular heterogeneity and lineage tracing.}
+  abstract={When different types of functional genomics data are generated on single cells from different samples of cells from the same heterogeneous population, the clustering of cells in the different samples should be coupled. We formulate this “coupled clustering” problem as an optimization problem and propose the method of coupled nonnegative matrix factorizations (coupled NMF) for its solution. The method is illustrated by the integrative analysis of single-cell RNA-sequencing (RNA-seq) and single-cell ATAC-sequencing (ATAC-seq) data.}
 }
 
 @article{Wu2018,
@@ -291,10 +291,10 @@
   volume={145},
   pages={41--50},
   year={2018},
-  pdf={example_pdf.pdf},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+  pdf={Wu2018a.pdf},
+  html={https://www.sciencedirect.com/science/article/pii/S1046202317304942?via%3Dihub},
   doi={10.1016/j.ymeth.2018.01.005},
-  abstract={This article introduces a network representation learning method to prioritize GWAS candidate genes by leveraging information from multiple gene networks. The approach improves gene prioritization by considering the global structure of gene interactions.}
+  abstract={Genome-wide association studies (GWAS) have successfully discovered a number of disease-associated genetic variants in the past decade, providing an unprecedented opportunity for deciphering genetic basis of human inherited diseases. However, it is still a challenging task to extract biological knowledge from the GWAS data, due to such issues as missing heritability and weak interpretability. Indeed, the fact that the majority of discovered loci fall into noncoding regions without clear links to genes has been preventing the characterization of their functions and appealing for a sophisticated approach to bridge genetic and genomic studies. Towards this problem, network-based prioritization of candidate genes, which performs integrated analysis of gene networks with GWAS data, has emerged as a promising direction and attracted much attention. However, most existing methods overlook the sparse and noisy properties of gene networks and thus may lead to suboptimal performance. Motivated by this understanding, we proposed a novel method called REGENT for integrating multiple gene networks with GWAS data to prioritize candidate genes for complex diseases. We leveraged a technique called the network representation learning to embed a gene network into a compact and robust feature space, and then designed a hierarchical statistical model to integrate features of multiple gene networks with GWAS data for the effective inference of genes associated with a disease of interest. We applied our method to six complex diseases and demonstrated the superior performance of REGENT over existing approaches in recovering known disease-associated genes. We further conducted a pathway analysis and showed that the ability of REGENT to discover disease-associated pathways. We expect to see applications of our method to a broad spectrum of diseases for post-GWAS analysis. REGENT is freely available at https://github.com/wmmthu/REGENT.}
 }
 
 @article{Min2017b,
@@ -306,10 +306,10 @@
   number={14},
   pages={i92--i101},
   year={2017},
-  pdf={example_pdf.pdf},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+  pdf={Min2017b.pdf},
+  html={https://academic.oup.com/bioinformatics/article/33/14/i92/3953949?login=false},
   doi={10.1093/bioinformatics/btx246},
-  abstract={The paper proposes a novel deep learning framework using convolutional LSTM networks with k-mer embedding for predicting chromatin accessibility, offering a powerful tool for understanding epigenetic regulation.}
+  abstract={We fill this gap by addressing the problem of chromatin accessibility prediction with a convolutional Long Short-Term Memory (LSTM) network with k-mer embedding. We first split DNA sequences into k-mers and pre-train k-mer embedding vectors based on the co-occurrence matrix of k-mers by using an unsupervised representation learning approach. We then construct a supervised deep learning architecture comprised of an embedding layer, three convolutional layers and a Bidirectional LSTM (BLSTM) layer for feature learning and classification. We demonstrate that our method gains high-quality fixed-length features from variable-length sequences and consistently outperforms baseline methods. We show that k-mer embedding can effectively enhance model performance by exploring different embedding strategies. We also prove the efficacy of both the convolution and the BLSTM layers by comparing two variations of the network architecture. We confirm the robustness of our model to hyper-parameters by performing sensitivity analysis. We hope our method can eventually reinforce our understanding of employing deep learning in genomic studies and shed light on research regarding mechanisms of chromatin accessibility.}
 }
 
 @article{Gan2017,
@@ -321,8 +321,8 @@
   number={4},
   pages={3--16},
   year={2017},
-  pdf={example_pdf.pdf},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+  pdf={Gan2017a.pdf},
+  html={https://bmcsystbiol.biomedcentral.com/articles/10.1186/s12918-017-0451-z},
   doi={10.1186/s12918-017-0451-z},
-  abstract={Mimvec introduces a deep learning approach for analyzing human phenotypic data, enabling more accurate modeling of complex phenotypic traits and their relationships to underlying genetic factors.}
+  abstract={Our method Mimvec is capable of not only capturing semantic relationships between words in biomedical records but also alleviating the dimensional disaster accompanying the traditional TF-IDF framework. With the approaching of precision medicine, there will be abundant electronic records of medicine and health awaiting for deep analysis, and we expect to see a wide spectrum of applications borrowing the idea of our method in the near future.}
 }
