@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I gave a invited talk at [Stanford Biostatictics Seminar]([https://dbds.stanford.edu/wp-content/uploads/2024/09/Seminar-series-Flier-Wanwen-Zeng-and-Wing-Hung-Wong.pdf]).
+I gave a invited talk at [Stanford Biostatictics Seminar](https://dbds.stanford.edu/wp-content/uploads/2024/09/Seminar-series-Flier-Wanwen-Zeng-and-Wing-Hung-Wong.pdf).
