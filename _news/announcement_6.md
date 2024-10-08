@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our Alzheimer's disease prediction using genomic LLMs is on [medRxiv](https://www.medrxiv.org/content/10.1101/2024.10.03.24314824v1).
+Our Alzheimer's disease prediction model using genomic LLMs is on [medRxiv](https://www.medrxiv.org/content/10.1101/2024.10.03.24314824v1).
