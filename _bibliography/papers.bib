@@ -3,7 +3,7 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{Zeng2024polygenic,
+@article{Zeng2025polygenic,
   abbr={PNAS},
   author={Wanwen Zeng and Hanmin Guo and Qiao Liu and Wing H. Wong†},
   title={How to improve polygenic prediction from increasingly prevalent whole-genome sequencing data?},
@@ -12,9 +12,22 @@
   abstract={Polygenic risk scores (PRS) are crucial in genetics for predicting individual susceptibility to complex diseases by aggregating the effects of numerous genetic variants. Whole-genome sequencing (WGS) has revolutionized our ability to detect rare and even de novo variants, creating an exciting opportunity for developing new PRS methods that can effectively leverage rare variants and capture the complex relationships among different variants. Furthermore, regulatory mechanisms play a crucial role in gene expression and disease manifestation, offering avenues to further enhance the performance and interpretation of PRS predictions. Through simulation studies, we highlighted aspects where current PRS methods face challenges when applied to WGS data, aiming to shed light on potential opportunities for further improvement. To address these challenges, we developed Epi-PRS, an approach that leverages the power of genomic large language models (LLM) to impute epigenomic signals across diverse cellular contexts, for use as intermediate variables between genotype and phenotype. A pretrained LLM is employed to transform genotypes into epigenomic signals using personal diploid sequences as inputs, and the genetic risk is then estimated based on the imputed personal epigenomic signals. Epi-PRS enhances the assessment of personal variant impacts, enabling a comprehensive and holistic consideration of genotypic and regulatory information within large genomic regions. Our simulation results demonstrated that incorporating the nuanced effects of non-linear models, rare variants, and regulatory information can provide more precise PRS prediction and better understanding of genetic risk. Applying Epi-PRS to real data from the UK Biobank, our results further showed that Epi-PRS significantly outperforms existing PRS methods in two major diseases: breast cancer and diabetes. This study suggests that PRS methods can benefit from incorporating non-linear models, rare variants, and regulatory information, highlighting the potential for significant advancements in disease risk modeling and enhancing the understanding of precision medicine.},
   pdf={Zeng2024a.pdf},
   html={https://www.medrxiv.org/content/10.1101/2024.10.04.24314860v1},
-  note={under review},
   selected={true}
 }
+
+
+@article{Cui2025CREATE,
+  abbr={Nat. Commun.},
+  author={Xuejian Cui and Qijin Yin and Zijing Gao and Zhen Li and Xiaoyang Chen and Shengquan Chen and Qiao Liu and Wanwen Zeng† and Rui Jiang†},
+  title={CREATE: cell-type-specific cis-regulatory elements identification via discrete embedding},
+  journal={Nature Communications},
+  year={2024},
+  abstract={Identifying cis-regulatory elements (CREs) within non-coding genomic regions-such as enhancers, silencers, promoters, and insulators-is pivotal for elucidating the intricate gene regulatory mechanisms underlying complex biological traits. The current prevalent sequence-based methods often focus on singular CRE types, limiting insights into cell-type-specific biological implications. Here, we introduce CREATE, a multimodal deep learning model based on the Vector Quantized Variational AutoEncoder framework, designed to extract discrete CRE embeddings and classify multiple CRE classes using genomic sequences, chromatin accessibility, and chromatin interaction data. CREATE excels in accurate CRE identification and exhibits strong effectiveness and robustness. We showcase CREATE's capability in generating comprehensive CRE-specific feature spectrum, offering quantitative and interpretable insights into CRE specificity. By enabling large-scale prediction of CREs in specific cell types, CREATE facilitates the recognition of disease- or phenotype-related biological variabilities of CREs, thereby expanding our understanding of gene regulation landscapes.},
+  pdf={Cui2024a.pdf},
+  html={https://www.biorxiv.org/content/10.1101/2024.10.02.616391v1},
+  selected={true}
+}
+
 
 @article{Liu2024Alzheimers,
   abbr={Nat. Aging},
@@ -29,21 +42,9 @@
   selected={true}
 }
 
-@article{Cui2024CREATE,
-  abbr={Nat. Commun.},
-  author={Xuejian Cui and Qijin Yin and Zijing Gao and Zhen Li and Xiaoyang Chen and Shengquan Chen and Qiao Liu and Wanwen Zeng† and Rui Jiang†},
-  title={CREATE: cell-type-specific cis-regulatory elements identification via discrete embedding},
-  journal={Nature Communications},
-  year={2024},
-  abstract={Identifying cis-regulatory elements (CREs) within non-coding genomic regions-such as enhancers, silencers, promoters, and insulators-is pivotal for elucidating the intricate gene regulatory mechanisms underlying complex biological traits. The current prevalent sequence-based methods often focus on singular CRE types, limiting insights into cell-type-specific biological implications. Here, we introduce CREATE, a multimodal deep learning model based on the Vector Quantized Variational AutoEncoder framework, designed to extract discrete CRE embeddings and classify multiple CRE classes using genomic sequences, chromatin accessibility, and chromatin interaction data. CREATE excels in accurate CRE identification and exhibits strong effectiveness and robustness. We showcase CREATE's capability in generating comprehensive CRE-specific feature spectrum, offering quantitative and interpretable insights into CRE specificity. By enabling large-scale prediction of CREs in specific cell types, CREATE facilitates the recognition of disease- or phenotype-related biological variabilities of CREs, thereby expanding our understanding of gene regulation landscapes.},
-  pdf={Cui2024a.pdf},
-  html={https://www.biorxiv.org/content/10.1101/2024.10.02.616391v1},
-  note={in revision},
-  selected={true}
-}
 
-@article{Zeng2024bpBERT,
-  abbr={RECOMB},
+@article{Zeng2025bpBERT,
+  abbr={},
   author={Wanwen Zeng and Shuang Chen and Yuti Liu and Wing H. Wong†},
   title={bpBERT: base-resolution BERT models reveal DNA sequence regulatory syntax and variants},
   year={2024},
