@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our team won the first place in [NeurIPS 2021 Multimodal Single-Cell Data Integration](https://openproblems.bio/events/2021-09_neurips/) competition two Joint Embedding tasks.
+Our team won the first place in [NeurIPS 2021 Multimodal Single-Cell Data Integration](https://openproblems.bio/events/2021-09_neurips) competition two Joint Embedding tasks.
