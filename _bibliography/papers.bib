@@ -16,18 +16,21 @@
 }
 
 @article{Zeng2018ep2vec,
-  abbr={BMC Genomics},
-  author={Wanwen Zeng, Mengmeng Wu and Rui Jiang†},
-  title={Prediction of enhancer-promoter interactions via natural language processing},
-  journal={BMC Genomics},
-  year={2018},
-  abstract={We propose a novel computational framework EP2vec to assay three-dimensional genomic interactions. We first extract sequence embedding features, defined as fixed-length vector representations learned from variable-length sequences using an unsupervised deep learning method in natural language processing. Then, we train a classifier to predict EPIs using the learned representations in supervised way. },
-  pdf={Zeng2018.pdf},
-  html={https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4459-6},
-  selected={true}
+  abbr = {BMC Genomics},
+  author = {Wanwen Zeng and Mengmeng Wu and Rui Jiang},
+  title = {Prediction of enhancer-promoter interactions via natural language processing},
+  journal = {BMC Genomics},
+  volume = {19},
+  pages = {84},
+  year = {2018},
+  doi = {10.1186/s12864-018-4459-6},
+  url = {https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4459-6},
+  abstract = {We propose a novel computational framework EP2vec to assay three-dimensional genomic interactions. We first extract sequence embedding features, defined as fixed-length vector representations learned from variable-length sequences using an unsupervised deep learning method in natural language processing. Then, we train a classifier to predict EPIs using the learned representations in supervised way.},
+  pdf = {Zeng2018.pdf},
+  selected = {true},
+  issn = {1471-2164},
+  publisher = {BioMed Central}
 }
-
-
 
 @article{Cui2025CREATE,
   abbr={Nat. Commun.},
@@ -50,7 +53,7 @@
   abstract={bpBERT introduces a BERT-based model to predict DNA regulatory sequences and identify variants with base-level precision.},
   pdf={example_pdf.pdf},
   html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  note={Under review},
+  note={Under review}
 }
 
 @article{Shao2024BIBM,
@@ -61,7 +64,7 @@
   year={2024},
   abstract={Gene regulatory networks (GRNs) are critical blueprints for understanding gene regulation and the intricate interactions that drive biological processes. Recent advances have highlighted the potential of single-cell ATAC-seq (scATAC-seq) data in GRN inference, offering unprecedented insights into how chromatin accessibility plays an important part in gene regulation. However, existing methods often fall short in providing a quantitative and holistic depiction of regulatory relationships, particularly in capturing the strength, direction, and type of gene regulation simultaneously. In this paper, we present a novel approach that addresses these limitations by leveraging genetically perturbed scATAC-seq data to infer more comprehensive and accurate GRNs. Our method advances the field by integrating pre- and post-perturbation chromatin accessibility data, enabling the construction of GRNs that more accurately reflect the dynamic regulatory landscape. Through rigorous evaluation on seven real datasets, we demonstrate the method’s superior performance in reconstructing GRNs with enhanced precision and interpretability. This work significantly contributes to the field by providing a robust framework for GRN inference, with broad implications for understanding gene regulation in complex biological systems.},
   pdf={Shao2024a.pdf},
-  html={https://www.biorxiv.org/content/10.1101/2024.10.10.617724v1},
+  html={https://www.biorxiv.org/content/10.1101/2024.10.10.617724v1}
 }
 
 
@@ -74,7 +77,7 @@
   year={2024},
   abstract={The transformer-based models, such as GPT-31 and DALL-E2, have achieved unprecedented breakthroughs in the field of natural language processing and computer vision. The inherent similarities between natural language and biological sequences have prompted a new wave of inferring the grammatical rules underneath the biological sequences. In genomic study, it is worth noting that DNA sequences alone cannot explain all the gene activities due to epigenetic mechanism. To investigate this problem, we propose EpiGePT, a new transformer-based language pretrained model in epigenomics, for predicting genome-wide epigenomic signals by considering the mechanistic modeling of transcriptional regulation. Specifically, EpiGePT takes the context-specific activities of transcription factors (TFs) into consideration, which could offer deeper biological insights comparing to models trained on DNA sequence only. In a series of experiments, EpiGePT demonstrates state-of-the-art performance in a diverse epigenomic signals prediction tasks as well as new prediction tasks by fine-tuning. Furthermore, EpiGePT is capable of learning the cell-type-specific long-range interactions through the self-attention mechanism and interpreting the genetic variants that associated with human diseases. We expect that the advances of EpiGePT can shed light on understanding the complex regulatory mechanisms in gene regulation. We provide free online prediction service of EpiGePT through https://health.tsinghua.edu.cn/epigept/.},
   pdf={Gao2024a.pdf},
-  html={https://www.biorxiv.org/content/10.1101/2023.07.15.549134v1},
+  html={https://www.biorxiv.org/content/10.1101/2023.07.15.549134v1}
 }
 
 @article{Li2024,
@@ -131,7 +134,7 @@
   abstract={Deciphering 3D genome conformation is important for understanding gene regulation and cellular function at a spatial level. The recent advances of single cell Hi-C technologies have enabled the profiling of the 3D architecture of DNA within individual cell, which allows us to study the cell-to-cell variability of 3D chromatin organization. Computational approaches are in urgent need to comprehensively analyze the sparse and heterogeneous single cell Hi-C data. Here, we proposed scDEC-Hi-C, a new framework for single cell Hi-C analysis with deep generative neural networks. scDEC-Hi-C outperforms existing methods in terms of single cell Hi-C data clustering and imputation. Moreover, the generative power of scDEC-Hi-C could help unveil the differences of chromatin architecture across cell types. We expect that scDEC-Hi-C could shed light on deepening our understanding of the complex mechanism underlying the formation of chromatin contacts.},
   pdf={Liu2023a.pdf},
   doi={10.1093/bib/bbac494},
-  html={https://academic.oup.com/bib/article/24/1/bbac494/6858951},
+  html={https://academic.oup.com/bib/article/24/1/bbac494/6858951}
 }
 
 @article{Zeng2022,
@@ -189,7 +192,7 @@
   abstract={We propose DeepExpression, a densely connected convolutional neural network, to predict gene expression using both promoter sequences and enhancer–promoter interactions. We demonstrate that our model consistently outperforms baseline methods, not only in the classification of binary gene expression status but also in regression of continuous gene expression levels, in both cross-validation experiments and cross-cell line predictions. We show that the sequential promoter information is more informative than the experimental enhancer information; meanwhile, the enhancer–promoter interactions within ±100 kbp around the TSS of a gene are most beneficial. We finally visualize motifs in both promoter and enhancer regions and show the match of identified sequence signatures with known motifs. We expect to see a wide spectrum of applications using HiChIP data in deciphering the mechanism of gene regulation.},
   pdf={Zeng2020a.pdf},
   doi={10.1093/bioinformatics/btz607},
-  html={https://academic.oup.com/bioinformatics/article/36/2/496/5535598?login=false},
+  html={https://academic.oup.com/bioinformatics/article/36/2/496/5535598?login=false}
 }
 
 @article{Zeng2019,
